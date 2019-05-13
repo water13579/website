@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Website</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.flex-container {
+			position: absolute;
+			align-items: stretch;
+
+			display: flex;
+			align-content: space-between;
+			width: 90%;
+			margin: 5%;
+		}
+		.parallax {
+			height: 70%;
+			background-image: url("forest.jpeg");
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*padding: 0 0; */
+			overflow: hidden;
+			margin-bottom: 130px;
+
+		}
+
+		.green-text {
+			overflow: hidden;
+			font-size: 40px;
+			border-left: 3px solid #39ac73;
+			padding: 2%;
+			margin: 0;
+		}
+		.header {
+			font-family: serif;
+			white-space: nowrap;
+			color: white;
+			font-size: 180px;
+			position: absolute;
+			left: 50%;
+			top: 20%;
+			transform: translate(-50%, -50%);
+		}
+		.sub-header {
+			font-size: 80px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="parallax"><h1 class="header">The Nature.</h1></div>
+	<div class="flex-container"> 
+		<p class="green-text">asdfasdfasdfasdfasdfasdfasdfasdf</p>
+		<pre>asdfhasjdfhlaiushdgauilnvaurgha;jdfgha;rgbu</pre>
+	</div>
+</body>
+</html>
